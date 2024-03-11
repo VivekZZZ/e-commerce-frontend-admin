@@ -1,0 +1,66 @@
+#merchantEdit {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#merchantEdit .formSignup {
+  width: 400px;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #3a5166;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow: hidden;
+  box-shadow: 0 5px 24px #0925400f, 0 1px 8px #09254008;
+}
+#merchantEdit .inputField {
+  display: flex;
+  flex-direction: column;
+}
+#merchantEdit label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #8995a1;
+}
+#merchantEdit .formContent {
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#merchantEdit .formContent h1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+#merchantEdit input {
+  border: none;
+  background-color: #fff;
+  padding: 1px 15px;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid #8995a1;
+}
+#merchantEdit input:focus {
+  border: none;
+  outline: 1px solid #3498db;
+}
+#merchantEdit button {
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #ff7a1a;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+#merchantEdit button:hover {
+  background-color: #3498db;
+}

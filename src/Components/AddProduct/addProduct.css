@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#add-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+  overflow: auto;
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+}
+.add-product-form {
+  width: 500px;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #3a5166;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: space-evenly;
+  box-shadow: 0 5px 24px #0925400f, 0 1px 8px #09254008;
+}
+.add-product-item {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#add-product .inputField {
+  display: flex;
+  justify-content: space-between;
+}
+#add-product label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #8995a1;
+}
+
+#add-product h1 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+#add-product input {
+  border: none;
+  background-color: #fff;
+  padding: 1px 15px;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid #8995a1;
+}
+#add-product input:focus {
+  border: none;
+  outline: 1px solid #3498db;
+}
+#add-product select {
+  border: none;
+  background-color: #fff;
+  /* color: grey; */
+  padding: 1px 15px;
+  width: 212px;
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid #8995a1;
+}
+#add-product select:focus {
+  border: none;
+  outline: 1px solid #3498db;
+}
+#add-product button {
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #ff7a1a;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+#add-product button:hover {
+  background-color: #3498db;
+}
+#add-product span {
+  color: red;
+}

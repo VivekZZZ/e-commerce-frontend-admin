@@ -1,0 +1,37 @@
+.hero {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(180deg, #e1ffea22 30%, #fde1ff);
+  display: flex;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  padding-left: 180px;
+}
+
+.hero-left-content p {
+  font-size: 64px;
+  font-weight: bold;
+}
+.hero-left button {
+  width: 200px;
+  padding: 10px 0px;
+  background-color: #f02626;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

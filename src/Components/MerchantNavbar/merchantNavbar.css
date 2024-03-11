@@ -1,0 +1,35 @@
+.merchantNavbar {
+  height: 10vh;
+  width: 100%;
+  padding: 0px 80px;
+  background-color: rgba(255, 122, 26, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  box-shadow: 0px 0px 5px black;
+}
+.logo h1 {
+  color: cadetblue;
+}
+.logo h1 span {
+  color: brown;
+}
+.logo-sub {
+  color: green;
+  font-size: 12px;
+  margin-left: 80px;
+  margin-top: -10px;
+}
+.options a {
+  text-decoration: none;
+  font-size: larger;
+  padding: 0px 10px;
+  color: #4d87f7;
+  font-weight: bolder;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}

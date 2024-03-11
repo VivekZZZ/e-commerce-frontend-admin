@@ -1,0 +1,15 @@
+.merchantHomepage {
+    background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+}
+.merchant-items {
+  display: flex;
+}
+
+@media only screen and(max-width :800px){
+  .merchant-items{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
